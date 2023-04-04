@@ -5,3 +5,16 @@ body {
   font-family: "Poppins";
   background: #f7f7f7;
 }
+
+header{
+  background: #fff;
+  padding: 10px;
+}
+
+nav{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
